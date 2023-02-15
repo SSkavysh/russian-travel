@@ -1,0 +1,15 @@
+.page__header {
+  margin: 0 auto calc((100vw - 1024px)/256 * 8 + 48px);
+}
+
+@media screen and (min-width: 1440px) {
+  .page__header {
+    margin-bottom: 62px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page__header {
+    margin-bottom: 48px;
+  }
+}

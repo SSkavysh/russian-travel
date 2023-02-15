@@ -1,0 +1,31 @@
+.places {
+  display: flex;
+  max-width: calc((100% - 1024px)/256 * 56 + 928px);
+  flex-direction: column;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: calc((100% - 768px)/256 * 208 + 720px);
+    row-gap: calc((100vw - 768px)/256 * 7 + 73px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: calc((100% - 320px)/448 * 400 + 320px);
+    row-gap: calc((100vw - 320px)/448 * 23 + 50px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    row-gap: 50px;
+  }
+}
+
+
+
+
+

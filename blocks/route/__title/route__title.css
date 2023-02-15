@@ -1,0 +1,28 @@
+.route__title {
+  margin: 0 auto 32px;
+  padding: 0;
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .route__title {
+    margin-bottom: calc((100vw - 320px)/448 * 16 + 16px);
+    max-width: calc((100% - 320px)/448 * 432 + 288px);
+    font-size: calc((100vw - 320px)/448 * 56 + 40px);
+    line-height: calc((100vw - 320px)/448 * 56 + 44px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .route__title {
+    margin-bottom: 16px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+

@@ -1,0 +1,24 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    row-gap: calc((100vw - 768px)/256 * 4 + 88px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    row-gap: calc((100vw - 320px)/448 * 24 + 64px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    row-gap: 64px;
+  }
+}

@@ -1,0 +1,15 @@
+.route {
+  max-width: calc((100% - 1024px)/256 * 56 + 928px);
+}
+
+@media screen and (max-width: 1024px) {
+  .route {
+    max-width: calc((100% - 768px)/256 * 160 + 768px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .route {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.place {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: calc((100% - 928px)/56 * 20 + 440px) auto;
+  gap: 48px calc((100% - 928px)/56 * 8 + 32px);
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: calc((100% - 720px)/208 * 100 + 340px) auto;
+    gap: 48px calc((100% - 720px)/208 * 4 + 28px);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+  }
+}
+
+
+
+
+
