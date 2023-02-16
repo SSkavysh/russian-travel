@@ -8,13 +8,13 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1041px) {
   .route__subtitle {
     margin-bottom: 56px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
   .route__subtitle {
     margin-bottom: calc((100vw - 320px)/448 * 16 + 40px);
     max-width: calc((100% - 320px)/448 * 352 + 288px);
@@ -23,10 +23,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 337px) {
   .route__subtitle {
     margin-bottom: 40px;
-    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
   }

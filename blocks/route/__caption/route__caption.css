@@ -10,7 +10,7 @@
   vertical-align: top;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
   .route__caption {
     margin-left: calc((100% - 320px)/448 * 8 + 16px);
   }

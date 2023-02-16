@@ -6,7 +6,7 @@
   row-gap: 12px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 537px) {
   .place__website {
     width: calc((100% - 320px)/200 * 180 + 288px);
   }

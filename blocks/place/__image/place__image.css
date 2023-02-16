@@ -4,7 +4,7 @@
   object-position: center;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 537px) {
   .place__image {
     width: calc((100% - 320px)/200 * 170 + 320px);
   }

@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
   .cover__title {
     width: calc((100vw - 320px)/448 * 272 + 288px);
     font-size: calc((100vw - 320px)/448 * 40 + 32px);
@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 337px) {
   .cover__title {
     width: 288px;
     font-size: 32px;
