@@ -6,4 +6,4 @@
 ## Основные технологии и инструменты при верстке сайта
 Инструменты HTML и CSS (медиазапросы, гриды, флексы, относительные размеры, вычислительные функции и т.п.), БЭМ-методология.
 
-[Ссылка на GitHub Pages](https://github.com/SSkavysh/russian-travel.git)
+[Ссылка на GitHub Pages](https://sskavysh.github.io/russian-travel/)

@@ -13,7 +13,10 @@
 
 @media screen and (max-width: 750px) {
   .footer {
+    max-width: calc((100% - 320px)/448 * 432 + 288px);
     flex-direction: column;
     row-gap: 48px;
   }
 }
+
+
